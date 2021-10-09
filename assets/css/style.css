@@ -8,6 +8,7 @@ body {
     background-color: silver;
 }
 
+/* Line 12-41: Header and Nav Section */
 header {
     padding: 50px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -39,6 +40,7 @@ header nav ul li {
     margin-left: 20px;
 }
 
+/* Line 44-61: Banner Section, Learned how to add subtitles inside image */
 .banner {
     position: relative;
     text-align: center;
@@ -58,9 +60,9 @@ header nav ul li {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+/* Line 64-102: About Me Section, Used flexbox to arrange items as I wanted */
 .aboutMe {
     display: flex;
-    padding 20px;
     background-color:rgb(80, 80, 80);
     position: relative;
     margin-bottom: 5px;
@@ -98,10 +100,10 @@ header nav ul li {
     line-height: 1.5;
 }
 
+/* Line 105-203 Work Section, Used flexbox to organize images/links */
 .work {
     display: flex;
     position: relative;
-    padding 20px;
     background-color:rgb(80, 80, 80);
     margin-bottom: 5px;
 }
@@ -198,10 +200,10 @@ header nav ul li {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+/* Line 206-244: Contact Me/Footer, Used flexbox to organize content */
 footer {
     display: flex;
     position: relative;
-    padding 20px;
     background-color:rgb(80, 80, 80);
     margin-bottom: 5px;
 }
@@ -238,10 +240,12 @@ footer nav ul {
     width: 100%;
 }
 
+/* line 247-249: Used pseudo class to add a border around links when hovered over */
 a:hover {
     border: 3px solid silver;
 }
 
+/* Line 252-386: Changed certain CSS code to match different media screens and made content column view */
 @media screen and (max-width: 1280px) {
     body {
         width: 1280px;
